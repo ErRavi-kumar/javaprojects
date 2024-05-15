@@ -21,12 +21,11 @@ public class numberguss {
             attempt ++;
             if (userguess == Numberguss) {
                 System.out.println("hey correct guesses "+attempt +" your number ");
-                break ;
+                
                 
             }
             else if(userguess < Numberguss) {
                 System.out.println("Try to higher number ");
-                break ;
                 
             } else {
                 System.out.println("Try to lower number ");
